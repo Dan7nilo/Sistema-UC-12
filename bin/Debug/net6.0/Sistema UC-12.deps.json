@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Sistema UC-12/1.0.0": {
+        "runtime": {
+          "Sistema UC-12.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sistema UC-12/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
