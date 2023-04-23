@@ -38,6 +38,21 @@ internal class NewBaseType
             Console.WriteLine($"Vai ficar só no réfris");
         }
 
+        PessoaJuridica novapj = new PessoaJuridica();
+        novapj.endereco = end;
+        novapj.nome = "master cargas";
+        novapj.cnpj = "00010001000001";
+        novapj.razaoSocial = "Empresa Top";
+
+        novapj.ValidarCNPJ(novapj.cnpj);
+
+        if(novapj.ValidarCNPJ(novapj.cnpj)){
+            Console.WriteLine("CNPJ Válido");
+        }else{
+            Console.WriteLine("CNPJ inválido");
+        }
+
+
 
 
     }
