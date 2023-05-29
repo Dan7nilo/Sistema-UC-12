@@ -102,7 +102,7 @@ internal class NewBaseType
 
         Console.WriteLine("Digite a data de nascimento: Ex: DD/MM/AAAA ");
         novapf.nascimento = DateTime.Parse(Console.ReadLine());
-        bool idadevalidade = novapf.ValidarDataNascimento(novapf.nascimento);
+          bool idadevalidade = novapf.ValidarDataNascimento(novapf.nascimento);
         if(idadevalidade == true){
         Console.WriteLine($"Pode beber Pinga");
         }else{
